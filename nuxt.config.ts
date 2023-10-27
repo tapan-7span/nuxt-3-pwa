@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt"],
   pwa: {
     manifest: {
