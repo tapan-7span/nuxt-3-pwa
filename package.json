@@ -11,8 +11,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.1",
+    "@vite-pwa/nuxt": "^0.1.1",
     "nuxt": "^3.8.0",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5"
   }
 }
